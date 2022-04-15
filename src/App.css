@@ -1,6 +1,3 @@
-* {
-  background-image: url("https://www.screenmemories.org.uk/wp-content/uploads/2020/09/cinema.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: white;
+:root {
+    background-color: rgb(202, 202, 202);
 }

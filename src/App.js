@@ -1,10 +1,11 @@
-
+import Home from './home/Home'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Friday Movies Soon!!</h1>
+      <Home />
     </div>
   );
 }

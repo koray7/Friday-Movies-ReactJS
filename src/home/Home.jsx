@@ -1,11 +1,12 @@
 import './Home.css'
+import Navbar from '../component/navbar/navbar'
 
 const Home = () => {
     
     return (
     
     <div className="home">
-        <h1>Home Page</h1>
+    <Navbar />
     </div>
 )
 }

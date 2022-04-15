@@ -11,7 +11,7 @@ const Navbar = () => {
                         src="https://images.squarespace-cdn.com/content/v1/530d6a45e4b0c1e0df748ac2/c851b10a-379c-4786-8376-a9f05ab4200d/movienight-3.jpg" 
                         alt="Friday-logo"
                     />
-                    <span>HomePage</span>
+                    <span>Home-Page</span>
                     <span>Series</span>
                     <span>Movies</span>
                     <span>New and Popular</span>

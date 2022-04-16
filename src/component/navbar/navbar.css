@@ -1,6 +1,12 @@
 .navbar {
     color: black;
     font-size: 2vw;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(253, 156, 156, .9);
+    border-radius:1vw;
+    margin-top: 1vw;
 }
 
 .container{
@@ -39,4 +45,14 @@ span{
 .profile:hover .options {
     display: flex;
     flex-direction: column;
+    background-color: rgb(247, 192, 26);
+    color: white;
+    border-radius: 1vw;
+    padding: 1vw 1.5vw 2vw 0;
+    margin: 0vw 2vw 1vw -2vw;
+    text-shadow: red;
+}
+span {
+    padding: 1vw 1.5vw;
+
 }

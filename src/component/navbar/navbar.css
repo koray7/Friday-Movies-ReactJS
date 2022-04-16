@@ -1,12 +1,12 @@
 .navbar {
-    color: black;
+    color: rgb(231, 231, 231);
     font-size: 2vw;
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: rgba(253, 156, 156, .9);
     border-radius:1vw;
     margin-top: 1vw;
+    background: linear-gradient(to bottom, transparent 0%, rgba(80, 79, 79, 0.9) 40%)
 }
 
 .container{

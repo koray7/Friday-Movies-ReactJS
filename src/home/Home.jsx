@@ -8,7 +8,7 @@ const Home = () => {
 
         <div className="home">
                 <Navbar />
-                <Main />
+                <Main type="movie"/>
         </div>
     )
 }

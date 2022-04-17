@@ -7,11 +7,11 @@ const Main = () => {
         <div className="info">
             <img 
                 className="movie"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYyualeC5paFx3kEoCr2i97qP0HydnT2Jtw&usqp=CAU"
+                src="https://gumlet.assettype.com/freepressjournal/2021-11/73de02ef-cd36-47d8-bbae-528d01dc6fe4/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg?format=webp&w=400&dpr=2.6"
                 alt="movie-img"
             />
             <span className="desc">
-            Alanya is a resort town on Turkey’s central Mediterranean coast (also known as the Turkish Riviera). Its wide beaches lined with hotels include Cleopatra Beach, where the Egyptian queen reputedly swam. Alanya Castle, a giant Seljuk-era fort turned open-air museum, stands on a rocky bluff above the beachfront, alongside red tile–roofed Ottoman villas and the octagonal Red T
+            Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life.
             </span> 
             <div className="buttons">
                 <button className="btn">Play</button>

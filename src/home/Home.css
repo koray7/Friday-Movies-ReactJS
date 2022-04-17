@@ -1,9 +1,8 @@
-.home {
-    padding: 1vw;
+html {
+    padding: 2vw;
     background: url("https://artfiles.alphacoders.com/309/30944.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
     display: flex;
-    flex-direction: row;
 }

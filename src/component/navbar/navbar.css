@@ -5,8 +5,8 @@
     top: 0;
     z-index: 999;
     border-radius: 1vw;
-    margin: 1vw 0 1vw 0;
     background: linear-gradient(to bottom, transparent 0%, rgba(241, 241, 241, 0.2) 50%);
+    text-align: center;
 }
 .scrolled {
     background-color: rgba(241, 241, 241, 0.6)

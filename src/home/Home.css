@@ -4,5 +4,9 @@ html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
-    display: flex;
+    /* display: flex; */
+    /* overflow: hidden; */
+}
+.home {
+    overflow: hidden;
 }

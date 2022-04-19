@@ -11,14 +11,14 @@ const List = () => {
 
     const handleClick = (direction) => {
         setIsMoved(true)
-        let distance = listRef.current.getBoundingClientRect().x - 50
+        let distance = listRef.current.getBoundingClientRect().x
         if(direction === "left" && slideNumber > 0) {
             setSlideNumber(slideNumber - 1);
-            listRef.current.style.transform = `translateX(${207 + distance}px)`
+            listRef.current.style.transform = `translateX(${150 + distance}px)`
         }
         if(direction === "right" && slideNumber < 5) {
             setSlideNumber(slideNumber + 1)
-            listRef.current.style.transform = `translateX(${-253 + distance}px)`
+            listRef.current.style.transform = `translateX(${-300 + distance}px)`
         }
     }
 

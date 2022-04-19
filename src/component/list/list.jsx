@@ -1,18 +1,22 @@
 import './list.css';
 import ListItem from '../listItem/listItem';
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 const List = () => {
+    
+    const [slideNumber, setSlideNumber] = useState(0);
 
     const listRef = useRef()
 
     const handleClick = (direction) => {
         let distance = listRef.current.getBoundingClientRect().x - 50
-        if(direction === "left") {
-            listRef.current.style.transform = `translateX(${205 + distance}px)`
+        if(direction === "left" && slideNumber > 0) {
+            setSlideNumber(slideNumber - 1);
+            listRef.current.style.transform = `translateX(${207 + distance}px)`
         }
-        if(direction === "right") {
-            listRef.current.style.transform = `translateX(${-205 + distance}px)`
+        if(direction === "right" && slideNumber < 5) {
+            setSlideNumber(slideNumber + 1)
+            listRef.current.style.transform = `translateX(${-253 + distance}px)`
         }
     }
 
@@ -37,13 +41,14 @@ const List = () => {
                     <ListItem />
                     <ListItem />
                     <ListItem />
+                    <ListItem />
                 </div>
                 
                 <img 
                     className="sliderArrow right"
                     src="https://www.freeiconspng.com/thumbs/arrow-icon/big-left-arrow-icon-007358--icons-etc-15.png"
                     alt="arrowL"
-                    onclick={() => handleClick("right")}
+                    onClick={() => handleClick("right")}
                 />
             </div>
         </div>

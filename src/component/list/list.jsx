@@ -4,11 +4,13 @@ import { useRef, useState } from 'react'
 
 const List = () => {
     
+    const [isMoved, setIsMoved] = useState(false)
     const [slideNumber, setSlideNumber] = useState(0);
 
     const listRef = useRef()
 
     const handleClick = (direction) => {
+        setIsMoved(true)
         let distance = listRef.current.getBoundingClientRect().x - 50
         if(direction === "left" && slideNumber > 0) {
             setSlideNumber(slideNumber - 1);
@@ -26,9 +28,10 @@ const List = () => {
             <div className="wrapper">
                 <img 
                     className="sliderArrow left"
-                    src="https://c8.alamy.com/zooms/9/ff1d005be9514206b7c744b74c7b4b58/2ap32wa.jpg"
+                    src="https://www.freeiconspng.com/thumbs/arrow-icon/big-left-arrow-icon-007358--icons-etc-15.png"
                     alt="arrowR"
                     onClick={() => handleClick("left")}
+                    style={{display: !isMoved && "none"}}
                 />
 
                 <div className="container" ref={listRef}>
@@ -46,7 +49,7 @@ const List = () => {
                 
                 <img 
                     className="sliderArrow right"
-                    src="https://www.freeiconspng.com/thumbs/arrow-icon/big-left-arrow-icon-007358--icons-etc-15.png"
+                    src="https://c8.alamy.com/zooms/9/ff1d005be9514206b7c744b74c7b4b58/2ap32wa.jpg"
                     alt="arrowL"
                     onClick={() => handleClick("right")}
                 />

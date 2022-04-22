@@ -12,10 +12,12 @@ const Home = () => {
         <div className="home">
                 <Navbar />
                 <Main type="movie"/>
-                <List />
-                <List />
-                <List />
-                <List />
+                <div className="listOfMovies">
+                    <List />
+                    <List />
+                    <List />
+                    <List />
+                </div>
         </div>
     )
 }

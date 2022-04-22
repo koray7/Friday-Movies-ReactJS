@@ -5,10 +5,12 @@
     overflow: hidden;
     margin: 0 2vw;
     padding: 0;
+    overflow: hidden;
 }
 .movies-img {
     width: 100%;
     height: 100%;
     background-size: cover;
     border-radius: 3vw;
+    object-fit: cover;
 }

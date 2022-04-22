@@ -36,6 +36,7 @@
     cursor: pointer;
     margin: 3px;
 }
+
 .logo:hover {
     transform: scale(1.2); 
 }

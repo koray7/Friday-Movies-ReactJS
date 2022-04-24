@@ -10,6 +10,7 @@ const ListItem = () => {
                     <img className="movies-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLixtfbLjAS0QmRmcjY9d6o8xwGzRGEhhjTH1tN5gIcUTJUSTIDcRJPALLOeAGrRdnkM&usqp=CAU" alt="add-icon"/>
                     <img className="movies-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facebook_Thumb_icon.svg/640px-Facebook_Thumb_icon.svg.png" alt="play-icon"/>
                     <img className="movies-icon" src="https://media.pocketnow.com/styles/large/public/2019/02/YouTube-dislike-button.jpg?itok=dbcQU5bm" alt="play-icon"/>
+                    <button>Button</button>
                 </div>
                 
             </div>

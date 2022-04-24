@@ -15,9 +15,9 @@
     margin: 2vw 0;
 }
 .listItem:hover {
-    transform: scale(1.8);
+    width: 20vw;
+    height: 30vw;
 }
 .movies-icon {
-    width: 100%;
-    height: 100%;
+    width: 2vw;
 }

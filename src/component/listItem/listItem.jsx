@@ -12,7 +12,6 @@ const ListItem = () => {
                     <img className="movies-icon" src="https://media.pocketnow.com/styles/large/public/2019/02/YouTube-dislike-button.jpg?itok=dbcQU5bm" alt="play-icon"/>
                     <button>Button</button>
                 </div>
-                
             </div>
         </div>
     )

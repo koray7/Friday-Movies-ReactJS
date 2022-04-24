@@ -3,11 +3,11 @@ html {
     background: url("https://artfiles.alphacoders.com/309/30944.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-size: cover;
 }
 .home {
     overflow: hidden;
 }
 .listOfMovies {
     background-color: rgba(29, 29, 29, 0.6);
+    border-radius: 2vw;
 }

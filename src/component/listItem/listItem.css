@@ -5,9 +5,20 @@
     margin: 0 2vw;
     padding: 0;
     overflow: hidden;
+    cursor: pointer;
+    color: white;
 }
 .movies-img {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    margin: 1vw 0;
+    padding: 2vw;
+}
+.listItem:hover {
+    transform: scale(1.6);
+}
+.movies-icon {
     width: 100%;
     height: 100%;
-    background-size: cover;
 }

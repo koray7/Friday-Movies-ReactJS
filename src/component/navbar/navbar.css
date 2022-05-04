@@ -17,20 +17,30 @@
     height: 6vw;
     justify-content: space-between;
 }
-.navbar-text{
+.kid{
     cursor: pointer;
     background-color:rgba(145, 212, 246, 0.2);
     border-radius: 1vw;
     font-size: 1em;
 }
-.navbar-text:hover {
-    transform: scale(1.1); 
+
+.kid:hover {
     color:rgb(240, 136, 80);
-    padding: 6px;
+    cursor: pointer;
+}
+
+.navbar-text {
+    margin: .4vw;
+}
+
+.navbar-text:hover {
+    color:rgb(240, 136, 80);
+    cursor: pointer;
 }
 
 .nav-icon {
-    font-size: 10vw;
+
+    margin: 1vw;
 }
 
 .logo {

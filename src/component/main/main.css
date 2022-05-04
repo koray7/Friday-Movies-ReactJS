@@ -19,16 +19,18 @@
     border-radius: 2vw;
 }
 .btn {
-    font-size: 1.5vw;
-    padding: 1vw;
-    border-radius: 2vw;
+    font-size: 1vw;
+    padding: .6vw;
+    border-radius: .8vw;
     background-color: rgba(235, 235, 235, 0.8);
-    color: rgb(255, 255, 4);
+    color: rgb(213, 71, 11);
     cursor: pointer;
-    font-weight: 600;
+    margin: .2vw;
 }
 .buttons {
-    margin: 0 16vw 0 0;
+    margin-right: 20vw;
+    display: flex;
+    flex-direction: row;
 }
 .movie {
     border-radius: 2vw;

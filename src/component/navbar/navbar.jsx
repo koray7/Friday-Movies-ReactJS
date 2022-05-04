@@ -33,13 +33,13 @@ const Navbar = () => {
 
                     <SearchIcon className="nav-icon"/>
 
-                    <span className="navbar-text">KID</span>
+                    <span className="kid">KID</span>
                     
                     <NotificationsPausedIcon className="nav-icon"/>
 
                     <PersonAddAltIcon className="nav-icon"/>
                     
-                    <ArrowDownwardIcon className="logo"/>
+                    <ArrowDownwardIcon className="dropdown-arrow"/>
                     
                     <div className="profile">
 

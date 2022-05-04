@@ -1,5 +1,7 @@
 import React from 'react'
 import './main.css'
+import PlayCircleIcon from '@mui/icons-material/PlayCircle';
+import InfoIcon from '@mui/icons-material/Info';
 
 const Main = ({type}) => {
     return (
@@ -36,8 +38,9 @@ const Main = ({type}) => {
             Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life.
             </span> 
             <div className="buttons">
-                <button className="btn">Play</button>
-                <button className="btn">Info</button>
+                
+                <PlayCircleIcon className="btn"/>
+                <InfoIcon className="btn"/>
             </div>
         </div>
     </div>

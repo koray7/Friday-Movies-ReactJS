@@ -29,6 +29,10 @@
     padding: 6px;
 }
 
+.nav-icon {
+    font-size: 10vw;
+}
+
 .logo {
     height: 4vw;
     border-radius: 3vw;

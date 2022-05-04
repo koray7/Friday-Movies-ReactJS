@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./navbar.css"
-
+import SearchIcon from '@mui/icons-material/Search';
+import NotificationsPausedIcon from '@mui/icons-material/NotificationsPaused';
+import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 const Navbar = () => {
 
     const [scrolled, setScrolled] = useState(false)
@@ -27,32 +30,23 @@ const Navbar = () => {
                 </div>
                 
                 <div className="right">
-                    <img 
-                        className="logo"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6GUuqAUrdzpX9P5kgk0OQ4lpMNACqyqSZla13QZyz5-VT6kClv_s45tNAjW8n3k3ykQ&usqp=CAU"
-                        alt="Search-icon"
-                    />
+
+                    <SearchIcon className="nav-icon"/>
+
                     <span className="navbar-text">KID</span>
-                    <img 
-                        className="logo"
-                        src="https://cdn-icons-png.flaticon.com/512/1592/1592461.png"
-                        alt="Notification-icon"
-                    />
-                    <img 
-                        className="logo"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/768px-User_icon_2.svg.png"
-                        alt="user-icon"
-                    />
+                    
+                    <NotificationsPausedIcon className="nav-icon"/>
+
+                    <PersonAddAltIcon className="nav-icon"/>
+                    
+                    <ArrowDownwardIcon className="logo"/>
+                    
                     <div className="profile">
-                        <img 
-                            className="logo"
-                            src="https://icon-library.com/images/red_arrow_down-512.png"
-                            alt="arrowdown-icon"
-                        />
-                        <div className="options">
+
+                    <div className="options">
                             <span className="dropdown">Settings</span>
                             <span className="dropdown">Login</span>
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

@@ -19,7 +19,8 @@
     border-radius: 2vw;
 }
 .btn {
-    font-size: 1vw;
+    width: 10vw;
+    height: 10vw;
     padding: .6vw;
     border-radius: .8vw;
     background-color: rgba(235, 235, 235, 0.8);

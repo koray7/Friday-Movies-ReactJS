@@ -1,6 +1,9 @@
 import './list.css';
 import ListItem from '../listItem/listItem';
 import { useRef, useState } from 'react'
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
+
 
 const List = () => {
     
@@ -26,13 +29,12 @@ const List = () => {
         <div className="list">
             <span className="listTitle">Continue to watch</span>
             <div className="wrapper">
-                <img 
-                    className="sliderArrow left"
-                    src="https://www.freeiconspng.com/thumbs/arrow-icon/big-left-arrow-icon-007358--icons-etc-15.png"
-                    alt="arrowR"
+
+            <KeyboardDoubleArrowLeftIcon         
                     onClick={() => handleClick("left")}
-                    style={{display: !isMoved && "none"}}
-                />
+                    style={{display: !isMoved && "none", width: 50, height: 50}}
+                    
+            />
 
                 <div className="container" ref={listRef}>
                     <ListItem />
@@ -47,11 +49,11 @@ const List = () => {
                     <ListItem />
                 </div>
                 
-                <img 
+                <KeyboardDoubleArrowRightIcon
                     className="sliderArrow right"
-                    src="https://c8.alamy.com/zooms/9/ff1d005be9514206b7c744b74c7b4b58/2ap32wa.jpg"
                     alt="arrowL"
                     onClick={() => handleClick("right")}
+                    style={{ width: 50, height: 50 }}
                 />
             </div>
         </div>

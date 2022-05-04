@@ -31,22 +31,17 @@ const Navbar = () => {
                 
                 <div className="right">
 
-                    <SearchIcon className="nav-icon"/>
-
+                    <SearchIcon className="nav-icon" style={{ fontSize: 38 }}/>
                     <span className="kid">KID</span>
-                    
-                    <NotificationsPausedIcon className="nav-icon"/>
-
-                    <PersonAddAltIcon className="nav-icon"/>
-                    
-                    <ArrowDownwardIcon className="dropdown-arrow"/>
+                    <NotificationsPausedIcon className="nav-icon" style={{ fontSize: 38 }}/>
+                    <PersonAddAltIcon className="nav-icon" style={{ fontSize: 38 }}/>
+                    <ArrowDownwardIcon className="dropdown-arrow" style={{ fontSize: 38 }}/>
                     
                     <div className="profile">
-
-                    <div className="options">
-                            <span className="dropdown">Settings</span>
-                            <span className="dropdown">Login</span>
-                    </div>
+                        <div className="options">
+                                <span className="dropdown">Settings</span>
+                                <span className="dropdown">Login</span>
+                        </div>
                     </div>
                 </div>
             </div>

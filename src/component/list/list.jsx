@@ -30,7 +30,8 @@ const List = () => {
             <span className="listTitle">Continue to watch</span>
             <div className="wrapper">
 
-            <KeyboardDoubleArrowLeftIcon         
+            <KeyboardDoubleArrowLeftIcon
+                    className="sliderArrow left"
                     onClick={() => handleClick("left")}
                     style={{display: !isMoved && "none", width: 50, height: 50}}
                     

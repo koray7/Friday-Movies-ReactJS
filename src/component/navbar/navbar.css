@@ -12,9 +12,9 @@
     background-color: rgba(241, 241, 241, 0.6)
 }
 .container{
+    padding: 0px 40px;
     display: flex;
-    flex-direction: row;
-    height: 6vw;
+    align-items: center;
     justify-content: space-between;
 }
 .kid{
@@ -51,9 +51,6 @@
     margin: 3px;
 }
 
-.logo:hover {
-    /* transform: scale(1.2);  */
-}
 
 .left {
     display: flex;

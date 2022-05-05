@@ -8,6 +8,6 @@ html {
     overflow: hidden;
 }
 .listOfMovies {
-    background-color: rgba(29, 29, 29, 0.6);
-    border-radius: 2vw;
+    /* background-color: rgba(29, 29, 29, 0.6);
+    border-radius: 2vw; */
 }

@@ -4,6 +4,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import NotificationsPausedIcon from '@mui/icons-material/NotificationsPaused';
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+
+
 const Navbar = () => {
 
     const [scrolled, setScrolled] = useState(false)
@@ -22,7 +24,7 @@ const Navbar = () => {
                         src="https://images.squarespace-cdn.com/content/v1/530d6a45e4b0c1e0df748ac2/c851b10a-379c-4786-8376-a9f05ab4200d/movienight-3.jpg" 
                         alt="Friday-logo"
                     />
-                    <span className="navbar-text">Home Page</span>
+                    <span className="navbar-text">HomePage</span>
                     <span className="navbar-text">Series</span>
                     <span className="navbar-text">Movies</span>
                     <span className="navbar-text">New and Popular</span>

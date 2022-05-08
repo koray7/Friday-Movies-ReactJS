@@ -19,14 +19,14 @@
     border-radius: 2vw;
 }
 .btn {
-    /* width: 10vw;
+    width: 10vw;
     height: 10vw;
     padding: .1vw;
     border-radius: .8vw;
     background-color: rgba(235, 235, 235, 0.8);
     color: rgb(213, 71, 11);
     cursor: pointer;
-    margin: .2vw; */
+    margin: .2vw;
 }
 .buttons {
     margin-right: 20vw;

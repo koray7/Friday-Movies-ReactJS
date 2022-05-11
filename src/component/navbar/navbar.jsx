@@ -33,7 +33,7 @@ const Navbar = () => {
                 
                 <div className="right">
 
-                    <SearchIcon className="nav-icon" style={{ fontSize: 38 }}/>
+                    {/* <SearchIcon className="nav-icon" style={{ fontSize: 38 }}/>
                     <span className="kid">KID</span>
                     <NotificationsPausedIcon className="nav-icon" style={{ fontSize: 38 }}/>
                     <PersonAddAltIcon className="nav-icon" style={{ fontSize: 38 }}/>
@@ -44,7 +44,7 @@ const Navbar = () => {
                                 <span className="dropdown">Settings</span>
                                 <span className="dropdown">Login</span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
